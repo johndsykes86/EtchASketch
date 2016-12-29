@@ -6,10 +6,8 @@ body{
   background-color: brown;
 }
 
-.container-main{
-  width: 1300px;
-  height: auto;
-  margin: 40px auto;
+.container-main {
+  margin: 0 auto;
 }
 
 .container{
@@ -26,10 +24,16 @@ body{
   float:left;
 }
 
+
 .clearfix {
   float:none;
 }
 
 .color {
   background-color: blue;
+}
+
+.menu{
+  text-align: center;
+  margin: 40px auto;
 }
