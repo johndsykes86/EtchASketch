@@ -2,16 +2,32 @@ html {
   box-sizing: border-box;
 }
 
-.container{
-  width: 100px;
-  height: 500px;
+body{
+  background-color: brown;
+}
+
+.container-main{
+  width: 1300px;
+  height: auto;
   margin: 40px auto;
 }
 
+.container{
+  width: 700px;
+  height: 700px;
+  margin: 40px auto;
+  border: 5px solid black;
+
+}
+
 .square {
-  width: 48px;
-  height: 48px;
-  border: 2px solid black;
+  width: 10px;
+  height: 10px;
+  float:left;
+}
+
+.clearfix {
+  float:none;
 }
 
 .color {
