@@ -26,7 +26,7 @@ $(document).ready (function(){
       return value;
     }
     square = square();
-
+[]
 
 
     if (square < 1 || square > 100){
