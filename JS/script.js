@@ -43,7 +43,7 @@ $(document).ready (function(){
       $('.square').on('mouseenter', function(){
         $(this).addClass('color');
         rgb = randomcolor();
-        $('.square').css('background-color', rgb)
+        $(this).css('background-color', rgb)
       })
 
     }
